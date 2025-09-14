@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const stats = [
-    { icon: Users, label: 'Active Students', value: '2,500+' },
-    { icon: Building2, label: 'Partner Companies', value: '150+' },
-    { icon: TrendingUp, label: 'Placement Success', value: '95%' },
+    { icon: Users, label: 'Active Students', value: '0' },
+    { icon: Building2, label: 'Partner Companies', value: '0' },
+    { icon: TrendingUp, label: 'Placement Success', value: '0%' },
   ];
 
   return (

@@ -17,10 +17,10 @@ const Dashboard = () => {
   const [userRole] = useState<'student' | 'faculty'>('student'); // This would come from auth
 
   const applicationStats = [
-    { label: 'Total Applications', value: 12, icon: Users, color: 'text-primary' },
-    { label: 'In Progress', value: 5, icon: Clock, color: 'text-warning' },
-    { label: 'Accepted', value: 3, icon: CheckCircle, color: 'text-success' },
-    { label: 'Pending Interview', value: 4, icon: AlertCircle, color: 'text-info' },
+    { label: 'Total Applications', value: 0, icon: Users, color: 'text-primary' },
+    { label: 'In Progress', value: 0, icon: Clock, color: 'text-warning' },
+    { label: 'Accepted', value: 0, icon: CheckCircle, color: 'text-success' },
+    { label: 'Pending Interview', value: 0, icon: AlertCircle, color: 'text-info' },
   ];
 
   const recentApplications = [

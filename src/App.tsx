@@ -9,6 +9,7 @@ import Opportunities from "./pages/Opportunities";
 import Applications from "./pages/Applications";
 import Layout from "./components/Layout";
 import NotFound from "./pages/NotFound";
+//import Login from "./pages/Login";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/opportunities" element={<Opportunities />} />
             <Route path="/applications" element={<Applications />} />
+            {/* <Route path="/login" element={<Login />} /> */}
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
@@ -33,4 +35,4 @@ const App = () => (
   </QueryClientProvider>
 );
 
-export default App;
+export default App;

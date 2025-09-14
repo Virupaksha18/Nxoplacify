@@ -35,14 +35,14 @@ const Index = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Chen',
-      role: 'CS Student, IIT Delhi',
+      name: 'abc',
+      role: 'CS Student, NIT Raichur',
       content: 'Got my dream internship at Google thanks to PlacementTracker. The organized approach made all the difference!',
       rating: 5,
     },
     {
-      name: 'Dr. Rajesh Kumar',
-      role: 'Placement Officer, NIT Warangal',
+      name: 'xyz',
+      role: 'Placement Officer, NIT Raichur',
       content: 'Managing 500+ students is now effortless. The analytics help us track success rates and improve our process.',
       rating: 5,
     },
@@ -57,7 +57,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose PlacementTracker?
+              Why to Choose Nxoplacify?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Streamline your placement process with powerful features designed for both students and faculty.
@@ -126,7 +126,7 @@ const Index = () => {
             Ready to Transform Your Placement Journey?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8">
-            Join thousands of students and faculty already using PlacementTracker.
+            Join fast! Many students and faculty already using Nxoplacify.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
